@@ -29,7 +29,7 @@ class Lagu:
 	def __init__(self,judul,penyanyi):
 		self.judul = judul
 		self.penyanyi = penyanyi
-song1 = Lagu("'Kalau Sang Surya Tenggelam','Erwin Gutawa feat Synch Stage Orchestra - Vienna'")
+song1 = Lagu('Kalau Sang Surya Tenggelam','Erwin Gutawa feat Synch Stage Orchestra Vienna')
 song2 = Lagu('Itsumo Nando Demo','Dazbee Cover') 
 song3 = Lagu('Dreams','The Cranberries') 
 song4 = Lagu('One Summer\'s Day','Joe Hisaishi') 
