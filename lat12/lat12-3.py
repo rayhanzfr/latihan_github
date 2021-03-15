@@ -4,12 +4,12 @@ def penanggalan():
     bln=(int(input("Masukkan Bulan (Dari 1-12): ")))
     tgl=(int(input("Masukkan Hari/Tanggal (Dari 1-31): ")))
     if thn%4==0 and bln==2 and tgl>29:
-        print("Inputan Salah!\n\n")
+        print("Tanggal tidak ada\n\n")
         return penanggalan()
     elif thn%4!=0 and bln==2 and tgl>=29:
-        print("Inputan Salah!\n\n")
+        print("Tanggal tidak ada!\n\n")
         return penanggalan()
-    elif thn%4!=0 and 0<bln<=12 and 0<tgl<31:
+    elif 0<bln<=12 and 0<tgl<=31:
         tanggal = date(thn, bln, tgl) # tahun, bulan, tanggal
         return tanggal
     else:
