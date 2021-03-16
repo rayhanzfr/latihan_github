@@ -6,4 +6,4 @@ def find_short(data):
     return x
 data=list(input("Masukan data: ").split(" "))
 print(find_short(data))
-#done
+#donee

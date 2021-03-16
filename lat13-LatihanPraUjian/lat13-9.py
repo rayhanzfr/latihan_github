@@ -11,4 +11,4 @@ def persistence(n):
 n=int(input("Masukkan Angka: "))
 final = persistence(n)
 print (final)
-#done
+#donee
